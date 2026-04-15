@@ -1,0 +1,35 @@
+@font-face{
+    font-family: "cute Font";
+    src: url(CuteFont-Regular.otf)
+}
+
+body{
+    background-color: pink;
+}
+.border{
+    padding: 50px;
+}
+
+button{
+    background-color: pink;
+    color: white;
+    border: 2px solid white; 
+    border-radius: 7px;
+    font-family:  "cute Font";
+    font-size: 30px;
+    width: 100px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contain{
+    display: flex;
+   
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+
+}

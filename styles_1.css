@@ -5,6 +5,7 @@
 
 body{
     background-color: pink;
+    overflow: hidden;
 }
 .border{
     padding: 50px;
@@ -28,8 +29,9 @@ button{
     display: flex;
    
     flex-direction: column;
-    text-align: center;
-    position: relative;
+    /* text-align: center;
+    position: relative; */
     justify-content: center;
-
+    align-items: center; 
+    height: 100vh;
 }

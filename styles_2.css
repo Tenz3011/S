@@ -4,8 +4,7 @@
 }
 
 body{
-    background-color: pink;
-    overflow: hidden;
+    background-color: black; 
     
 }
 .text{
@@ -22,7 +21,7 @@ h1{
     text-align: center;
     color: white;
     font-family: "cute Font";
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: 3px 3px 7px rgba(0,0,0,0.4);
 }
 .border{
@@ -54,4 +53,13 @@ h1{
     transform: rotate(350deg);
     float: left;
     clear: left;
+}
+.photo3 img {   
+    height: 250px;
+    width: auto;
+    border: 5px solid white;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    transform: rotate(340deg);
+    float: right;
+    clear: right;
 }

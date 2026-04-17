@@ -133,6 +133,9 @@ h1{
     .photo2 img{
         height: 200px;
     }
+    .photo3 img{
+        transform: rotate(15deg);
+    }
     .spinning_cat img{
         height: 100px;
         top: 10%;

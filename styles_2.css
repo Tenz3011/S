@@ -17,13 +17,19 @@ body{
     width: 100%;
     z-index: 10;
 }
+
 h1{
+    margin: 0;
     text-align: center;
     color: white;
     font-family: "cute Font";
     font-size: 70px;
-    text-shadow: 3px 3px 7px rgba(0,0,0,0.4);
+    text-shadow: 3px 3px 7px rgba(0,0,0,0.8);
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-style: dashed;
 }
+
 .border{
     padding: 50px;
 }
@@ -54,6 +60,17 @@ h1{
     float: left;
     clear: left;
 }
+
+.caramel img {   
+    height: 200px;
+    width: auto;
+    border: 5px solid white;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    transform: rotate(350deg);
+    float: right;
+    clear: right;
+}
+
 .photo3 img {   
     height: 250px;
     width: auto;
@@ -62,4 +79,72 @@ h1{
     transform: rotate(340deg);
     float: right;
     clear: right;
+}
+
+.cat img {   
+    height: 180px;
+    width: auto;
+    border: 5px solid white;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    transform: rotate(15deg);
+    float: left;
+    clear: left;
+}
+
+.spinning_cat img {   
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: rotate(350deg);
+    height: 150px;
+    width: auto;
+    z-index: -1;
+}
+
+.kiwi img {   
+    position: absolute;
+    top: 10%;
+    left: 70%;
+
+    height: 120px;
+    width: auto;
+    z-index: -1;
+}
+
+.catlove img {   
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: rotate(15deg);
+    height: 200px;
+    width: auto;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 46px;
+        transform: translateY(50px);
+        text-underline-offset: 7px;
+    }
+    .photo1 img{
+        height: 220px;
+    }
+    .photo2 img{
+        height: 200px;
+    }
+    .spinning_cat img{
+        height: 100px;
+        top: 10%;
+        left: 10%;
+    }
+    .kiwi img{
+        height: 80px;
+        top: 65%;
+        left: 10%;
+    }
+    .catlove img{
+        top: 85%;
+        left: 60%;
+    }
 }
